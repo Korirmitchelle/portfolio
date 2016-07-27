@@ -30,3 +30,42 @@ nav.main-menu.expanded {
     -webkit-transform: translateZ(0) scale(1, 1);
     z-index: 1000;
 }
+.main-menu>ul {
+    margin: 7px 0;
+}
+.main-menu li {
+    position: relative;
+    display: block;
+    width: 250px;
+}
+.main-menu li>a {
+    position: relative;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 4px;
+    color: #999;
+    font-family: arial;
+    font-size: 14px;
+    text-decoration: none;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+}
+.main-menu .nav-text {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    width: 190px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.no-touch .scrollable.hover {
+    overflow-y: hidden;
+}
+.no-touch .scrollable.hover:hover {
+    overflow-y: auto;
+    overflow: visible;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+}
