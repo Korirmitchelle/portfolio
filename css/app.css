@@ -1,5 +1,8 @@
 /*animated menu*/
 
+body {
+    background-color: #333;
+}
 .fa-2x {
     font-size: 2em;
 }
@@ -213,5 +216,5 @@ nav.main-menu li.active>a,
 }
 .panel:target {
     margin-top: 0%;
-    background-image: url(../images/Imitch.jpg);
+    background-color: #333;
 }
