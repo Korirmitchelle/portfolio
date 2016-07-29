@@ -12,3 +12,31 @@
     -o-transition: all 0.3s ease-in-out 0.6s;
     transition: all 0.3s ease-in-out 0.6s;
 }
+.view-ninth .mask-1 {
+    left: auto;
+    right: 0;
+    -webkit-transform: rotate(56.5deg) translateX(-180px);
+    -moz-transform: rotate(56.5deg) translateX(-180px);
+    -o-transform: rotate(56.5deg) translateX(-180px);
+    -ms-transform: rotate(56.5deg) translateX(-180px);
+    transform: rotate(56.5deg) translateX(-180px);
+    -webkit-transform-origin: 100% 0%;
+    -moz-transform-origin: 100% 0%;
+    -o-transform-origin: 100% 0%;
+    -ms-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+}
+.view-ninth .mask-2 {
+    top: auto;
+    bottom: 0;
+    -webkit-transform: rotate(56.5deg) translateX(180px);
+    -moz-transform: rotate(56.5deg) translateX(180px);
+    -o-transform: rotate(56.5deg) translateX(180px);
+    -ms-transform: rotate(56.5deg) translateX(180px);
+    transform: rotate(56.5deg) translateX(180px);
+    -webkit-transform-origin: 0% 100%;
+    -moz-transform-origin: 0% 100%;
+    -o-transform-origin: 0% 100%;
+    -ms-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+}
