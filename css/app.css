@@ -220,6 +220,7 @@ nav.main-menu li.active>a,
 .panel:target {
     margin-top: 0%;
     width: 136%;
-    height: 105%;
-    background-image: url(../images/bacground%20image.jpg);
+    height: 150%;
+    background-image: url(../images/Wallpaper.jpg);
+    background-repeat: repeat;
 }
